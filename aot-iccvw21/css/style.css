@@ -4,11 +4,14 @@
 .topnav {
 	background-color: rgba(138, 137, 189, 0.295);
 	overflow: hidden;
+	position: sticky;
+   	top: 0;
+   	z-index: 100;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-	float: left;
+	float: center;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
