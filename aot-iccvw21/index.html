@@ -3,16 +3,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CVPR'21 2nd Comprehensive Tutorial on Video Modeling</title>
+<title>ICCV'21 1st Workshop on Airborne Object Tracking (AOT)</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#overview">Overview</a>
+  <a href="#speakers">Speakers</a>
+  <a href="#callforpapers">Call for Papers</a>
+  <a href="#challenge">Challenge</a>
+  <a href="#dates">Important Dates</a>
+  <a href="#schedule">Workshop Schedule</a>
+  <a href="#organizers">Organizers</a>
+</div> 
+</br>
+
 <body>
 
-<div class="container">
+<div class="container" id="home" >
   <table border="0" align="center">
     <tr>
       <td width="700" align="center" valign="middle"><h3>ICCV 2021</h3>
@@ -20,43 +32,52 @@
     </tr>
 
     <tr>
-        <td colspan="3" align="center"><h3>Virtual<br>DATE TBD</h3></td>
+        <td colspan="3" align="center"><h3>Virtual<br>October 17th 2021</h3></td>
     </tr>
   </table>
 </div>
 
 </br>
 
+<div class="container" id="overview">
+  <h2>Overview</h2>
+    <div class="schedule">
+        <p> This workshop aims to promote research and development of the state-of-the-art Computer Vision-based models in the domain of <b>autonomous flight safety</b>. Despite significant advances in Computer Vision, tracking small objects, such as those found in <a href="https://registry.opendata.aws/airborne-object-tracking/"> Airborne Objects Tracking (AOT) dataset</a>, is still challenging. As opposed to the traditional Multi-Object Tracking (MOT) datasets, <a href="https://registry.opendata.aws/airborne-object-tracking/"> AOT dataset</a> poses a unique combination of challenges, due to the tiny size of the airborne objects and real-time performance requirements. 
+          Autonomous drones engage Sense and Avoid (SAA) technology for collision avoidance from unforeseen airborne obstacles on their planned route. 
+          Computer Vision algorithms for detection and tracking of airborne objects with low-cost, lightweight cameras onboard these drones will allow to scale safe autonomous flight. </p>
+    </div>
+</div>
+</br>
 
-<div class="container">
+<div class="container" id="speakers">
   <h2>Speakers</h2>
     <div>
-      <div class="instructorwide">
+      <div class="instructor">
         <a href="https://www.linkedin.com/in/amir-navot-7939101/" >
-      <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+      <div class="instructorphoto"><img src="figures/Amir-Navot.jpg"></div>
       <div>Dr. Amir Navot<br>Amazon Prime Air</div>
       </a>
      </div>
-    <p>&nbsp;</p>
-    </br>
+    <!-- <p>&nbsp;</p>
+    </br> -->
     
-      <div class="instructorwide">
+      <div class="instructor">
           <a href="https://dvl.in.tum.de/team/lealtaixe/" >
-        <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+        <div class="instructorphoto"><img src="figures/laura_lt.jpeg"></div>
         <div>Prof. Laura Leal-Taixé<br>TU Munich</div>
         </a>
       </div>
 
-      <div class="instructorwide">
+      <div class="instructor">
         <a href="https://people.epfl.ch/pascal.fua">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/pascal_fua.jpeg"></div>
             <div>Prof. Pascal Fua<br>EPFL</div>
         </a>
       </div>
 
-      <div class="instructorwide">
+      <div class="instructor">
         <a href="http://www.cvlibs.net/index.php">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/andreas_geiger.jpg"></div>
             <div>Prof. Andreas Geiger<br>Tubingen Institute</div>
         </a>
       </div>
@@ -71,88 +92,141 @@
 
 </br>
 
-
-<div class="container">
-  <h2>Overview</h2>
-    <div class="schedule">
-        <p> Despite significant advances in Computer Vision, tracking extremely small and far away objects, such as flying Airborne Objects Tracking (AOT) by autonomous flights with Sense and Avoid (SAA) capability, still remains a substantial challenge. Detection, accurate localization and future motion prediction for these objects, which typically cover 0.01% of the image on average, is crucial for the safe navigation of autonomous drones under a wide range of weather and illumination conditions. The 1st Workshop on Airborne Object Tracking will be held virtually on <a href="http://iccv2021.thecvf.com">TBD</a>. This workshop aims at promoting research and closing the gap in performance of state-of-the-art Computer Vision-based models in the domain of airborne objects detection and tracking using monocular visual cameras onboard aerial vehicles.</p>
-          <p>Autonomous drones engage Sense and Avoid (SAA) technology for situational awareness and collision avoidance maneuver around unforeseen airborne obstacles on their mission path. Computer Vision models for detection and tracking of Airborne Objects (AO) provide an integral solution that enables the use of low-cost, lightweight cameras onboard these drones for safe navigation. </p>
-          <p>The domain of Airborne Objects Tracking (AOT), as opposed to the one of traditional computer vision datasets for detection and tracking, poses a unique combination of challenges. This is due to the dynamic nature of the AOs as well as the sensing camera. Moreover, owing to the tiny size (in pixels) of these distant objects, and low density of AOs in the airspace, the data is extremely sparse both spatially and temporally. A large degree of variation in weather conditions, scene illumination, view angle and background terrain add to the complexity of the task. Accurate localization and highly reliable tracking of AOs over several video frames is essential for avoidance maneuver by the drone, when required. Furthermore, for safety and efficiency, it is imperative that the solution produces a very low number of false alarms. Timely detection within a desirable temporal window is essential for generating reliable and informative tracks useful for future motion prediction. Together these conditions pose some novel challenges for training computer vision models on monocular video data for online detection and tracking on AOs. </p>
-            
-    </div>
-</div>
-
 </br>
-<div class="container">
+<div class="container" id="callforpapers">
   <h2>Call for Papers</h2>
     <div class="schedule">
-    <p>We invite researchers to submit papers to ICCV presenting their solutions to the various tasks on the Airborne Objects Detection and Tracking dataset. The proposed approaches should produce state-of-the-art results on the AOT Challenge dataset  - </p>
-        
-    <p>1. Airborne detection and tracking - Methods that detect AOs and generate tracks to successfully detect airborne encounters in flight video data while producing a very small number of false alarm rate per hour of flight.</p>
-    <p>2. Frame-level airborne detection - Methods that detect AOs at frame level while producing a very small number of false positives per image. </p>
-    <p>3. Semi-supervised or Unsupervised Segmentation </p>
-    <p>4. Monocular Depth Estimation </p>
-    <p>5. Dataset Bias Analysis</p>    
+    <p>Topics of the workshop include various aspects of computer vision and machine learning which might be useful for safe autonomous flight. The topics include, but not limited to 
+    </p>
+    <ul>
+      <li><b>Detection and tracking</b>: 
+        <ul>
+          <li>Methods that detect and track (online) small objects in monocular videos</li>
+          <li>Specific methods that address object tracking benchmark of the AOT challenge</li>
+        </ul>
+      </li>
+      <li><b>Video object detection</b>:
+        <ul>
+          <li>Methods that detect small objects in monocular images and videos</li>
+          <li>Specific methods that address frame-level benchmark of the AOT challenge</li>
+        </ul>
+      </li>
+      <li><b>Semi-supervised or unsupervised segmentation</b>:
+        <ul>
+          <li>Instance segmentation of small objects in images and videos based on bounding boxes / extreme points</li>
+          <li>Instance and panoptic segmentation of AOT dataset</li>
+        </ul>
+      </li>
+      <li><b>Monocular Depth Estimation</b>:
+        <ul>
+          <li>Range estimation based on a single image / consecutive frames</li>
+        </ul>
+      </li>
+      <li><b>Super resolution</b>:
+        <ul>
+          <li>Video super resolution to improve small object detection</li>
+        </ul>
+      </li>
+      <li><b>Improving AOT Dataset</b>:
+        <ul>
+          <li>Detect bias in the dataset</li>
+          <li>Improve SIAM-MOT baseline of AOT challenge by manipulating dataset only </li>
 
-    </div>
+        </ul>
+      </li>
+    </ul>
+   <p>Papers are encouraged to illustrate their algorithm performance on the <a href="https://registry.opendata.aws/airborne-object-tracking/"> Airborne Objects Tracking (AOT) dataset</a></p>
+   <p>The workshop paper format (8-page limit) follows that of the main conference and will be published in the conference proceedings. Specific details will be shared closer to submission date</p>
+   
+   <p>We also introduce a new track of <b>extended abstract</b> submission!</p>  
+    The length of extended abstracts is 2 - 4 pages, including figures, tables and references. The contents (including references) and length of the extended abstract should be sufficient for the submission to be properly evaluated.
+    We invite submissions of extended abstracts of 
+    <ul>
+    <li>Ongoing or already published works. </li>
+    <li>Reports on demonstrations or prototypes.</li>
+    <li>Industry showcase or posters.</li>
+   </ul>
+    <p>The review will be a single-blind. Note that there will be NO published proceedings for extended abstracts. Authors of accepted abstracts might be invited to present their works during the workshop. 
+    Leading participants of the AOT challenge who want to be eligible for the prize need to submit an extended abstract about the technique they used for the challenge (see challenge rules for details)
+    </p> 
+  </div>
 </div>
+</br>
 
-<div class="container">
+<div class="container" id="challenge">
   <h2>Challenge</h2>
     <div class="schedule">
-        <p>Please visit <a href="https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/"> this website </a> for more details about Airborne Object Tracking challenge</p>
-
+        <p>Please visit <a href="https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/"> this website </a> for more details about Airborne Object Tracking challenge. </p>
+        <p><b>The challenge has been extended till September 1st 2021!</b></p> 
     </div>
 </div>
 
 </br>
 
-<div class="container">
-  <h2>Schedule</h2>
+<div class="container"  id="dates">
+  <h2>Important Dates</h2>
     <div class="schedule">
-        <p>TBD </p>
-        <!-- <p><span class="announce_date">08:45 - 09:30 </span>: <strong> Introduction to Human Activity Understanding in Videos </strong> by Yuanjun Xiong <a href="slide/talk1_activity_understanding_slide.pdf">[slides]</a> <a href="https://youtu.be/Jwt0Wtlv_uo">[talk]</a> </p>
-        <p><span class="announce_date">09:30 - 10:10 </span>: <strong> A Chronological Review of Recent SoTA and Beyond </strong> by Yi Zhu <a href="slide/talk2_gluoncv_video_slide.pdf">[slides]</a> <a href="https://youtu.be/Vox_ZnabryQ">[talk]</a> <a href="https://gluon-cv.mxnet.io/model_zoo/action_recognition.html">[GluonCV]</a> </p>
-        <p><span class="announce_date">10:10 - 10:30 </span>: <strong> Decord: An Efficient Video Reader for Deep Learning </strong> by Yi Zhu <a href="slide/talk3_decord_slide.pdf">[slides]</a> <a href="https://youtu.be/9uY8IX9IaeQ">[talk]</a> <a href="https://github.com/dmlc/decord/blob/master/examples/video_reader.ipynb">[notebook]</a> </p>
-        <p><span class="announce_date">10:30 - 10:45 </span>: <strong> Break </strong> </p>
-        <p><span class="announce_date">10:45 - 11:30 </span>: <strong> Deploy Video Models </strong> by Zhi Zhang <a href="slide/talk4_video_deployment_slide.pdf">[slides]</a> <a href="https://youtu.be/KZSmAS9YRIc">[talk]</a> <a href="https://github.com/zhreshold/cvpr2020-videomodeling-deployment">[notebook]</a> </p>
-        <p><span class="announce_date">11:30 - 12:15 </span>: <strong> A Journey Through Video Research at AWS </strong> by Joseph Tighe <a href="slide/talk5_video_at_AWS_slide.pdf">[slides]</a> <a href="https://youtu.be/WO6VnAyupbY">[talk]</a> </p>
-        <p><span class="announce_date">12:15 - 12:45 </span>: <strong> Structured Representations for Video Understanding </strong> by Chuang Gan <a href="slide/talk6_structured_representation_slide.pdf">[slides]</a> <a href="https://youtu.be/3Cot4dCg_2k">[talk]</a> </p>
- 
-        <p>For offline Q&A, please post questions to <a href="https://docs.google.com/document/d/1Ngzq5fY7cdwJaZ-VkuMFu3J0H4vh45KNIlLpAw4NGRg/edit?usp=sharing">Google Doc</a></p>
-        -->
+        <p><span class="announce_date">August 2, 2021 (11:59 PM PST)</span>: <strong> Paper Submission Deadline </strong></p>
+        <p><span class="announce_date">August 10, 2021 (11:59 PM PST)</span>: <strong> Author Notification Date </strong></p>
+        <p><span class="announce_date">August 17, 2021 (11:59 PM EST)</span>: <strong> Camera-ready Deadline </strong></p>
+        <p><span class="announce_date">September 10th, 2021 (11:59 PM PST) </span>: <strong> Extended Abstract Submission </strong></p>
+        <p><span class="announce_date">October 1st, 2021(11:59 PM PST)</span>: <strong> Abstract Acceptance Notification Date</strong></p>
+        <p><span class="announce_date">October 17th, 2021(8:45 AM EST)</span>: <strong> Workshop Date</strong></p>
+       
+        <!-- <p>For offline Q&A, please post questions to <a href="https://docs.google.com/document/d/1Ngzq5fY7cdwJaZ-VkuMFu3J0H4vh45KNIlLpAw4NGRg/edit?usp=sharing">Google Doc</a></p> -->
+       
       </div>
 </div>
 
 </br>
 
-<div class="container">
+<div class="container" id="schedule">
+  <h2>Temporary Workshop Schedule</h2>
+    <div class="schedule">
+        <p> Exact times might be adjusted later</p>      
+        <p><span class="announce_date">08:45 - 09:15 </span>: <strong> Introduction to Sense and Avoid Systems in Autonomous Drones </strong> by Amir Navot </p>
+        <!-- <a href="slide/talk1_activity_understanding_slide.pdf">[slides]</a> <a href="https://youtu.be/Jwt0Wtlv_uo">[talk]</a>  -->
+        <p><span class="announce_date">09:15 - 10:45 </span>: <strong> Invited Talks </strong> by Andreas Geiger, Pascal Fua and Laura Leal-Taixé</p>
+        <p><span class="announce_date">10:45 - 11:00 </span>: Break</p>
+        <p><span class="announce_date">11:00 - 11:10 </span>: <strong> Dataset and challenge overview </strong> by Maria Zontak</p>
+        <p><span class="announce_date">11:10 - 11:30 </span>: <strong> SIAM-MOT baseline overview </strong> by Bing Shuai</p>
+        <p><span class="announce_date">11:30 - 12:00 </span>: <strong> Challenge winners presentations </strong>  </p>
+        <p><span class="announce_date">12:00 - 12:30 </span>: <strong> Challenge winners / Extended abstracts presentations </strong> </p>
+        <p><span class="announce_date">12:30 - 12:45 </span>: Closing remarks </p> 
+        <!-- <p>For offline Q&A, please post questions to <a href="https://docs.google.com/document/d/1Ngzq5fY7cdwJaZ-VkuMFu3J0H4vh45KNIlLpAw4NGRg/edit?usp=sharing">Google Doc</a></p> -->
+       
+      </div>
+</div>
+
+</br>
+
+<div class="container" id="organizers">
   <h2>Organizers</h2>
     <div>
       <div class="instructor">
         <a href="https://www.linkedin.com/in/yuri-federigi/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/yuri_f.jpeg"></div>
             <div>Yuri Federigi</div>
         </a>
       </div>
 
       <div class="instructor">
           <a href="https://www.linkedin.com/in/maria-zontak-0272135/" >
-        <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+        <div class="instructorphoto"><img src="figures/maria_zontak.jpg"></div>
         <div>Maria Zontak</div>
         </a>
       </div>
 
       <div class="instructor">
         <a href="https://www.amazon.science/author/bing-shuai/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/bing_s.jpeg"></div>
             <div>Bing Shuai</div>
         </a>
       </div>
 
       <div class="instructor">
         <a href="https://www.linkedin.com/in/arthita-ghosh/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/arthita_ghosh.jpeg"></div>
             <div>Arthita Ghosh</div>
         </a>
       </div>
@@ -160,22 +234,24 @@
       <br>
       <p>&nbsp;</p>
       <div class="instructor">
-        <a href="https://www.linkedin.com/in/jeanguillaumedurand/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
-            <div>Jean-Guillaume Durand</div>
+        <a href="https://www.linkedin.com/in/tanya-glozman-924ab622/">
+            <div class="instructorphoto"><img src="figures/tanya_g.jpeg"></div>
+            <div>Tanya Glozman</div>
         </a>
       </div>
 
       <div class="instructor">
-        <a href="https://www.linkedin.com/in/tanya-glozman-924ab622/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
-            <div>Tanya Glozman</div>
+        <a href="https://www.linkedin.com/in/jeanguillaumedurand/">
+            <div class="instructorphoto"><img src="figures/jg.jpeg"></div>
+            <div>Jean-Guillaume Durand</div>
         </a>
       </div>
+
+      
       
       <div class="instructor">
         <a href="https://www.linkedin.com/in/david-ferstl-b7890657/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/David_Ferstl.jpg"></div>
             <div>David Ferstl</div>
         </a>
       </div>
@@ -190,27 +266,27 @@
       <p>&nbsp;</p>
       <div class="instructor">
         <a href="https://www.linkedin.com/in/gernot-riegler/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/gernot_r.jpeg"></div>
             <div>Gernot Riegler</div>
         </a>
       </div>  
 
       <div class="instructor">
         <a href="https://www.linkedin.com/in/christian-leistner-92349583/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/Christian_L.jpeg"></div>
             <div>Christian Leistner</div>
         </a>
       </div>      
       
       <div class="instructor">
         <a href="https://bryanyzhu.github.io/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/Yi_Zhu.jpeg"></div>
             <div>Yi Zhu</div>
         </a>
       </div>
       <div class="instructor">
         <a href="https://www.linkedin.com/in/joseph-tighe-4b85001/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/joe_tighe.jpeg"></div>
             <div>Joseph Tighe</div>
         </a>
       </div>
@@ -218,13 +294,13 @@
       <p>&nbsp;</p>
       <div class="instructor">
         <a href="https://www.linkedin.com/in/ishay-kamon-455666a5/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/ishay_kamon.jpg"></div>
             <div>Ishay Kamon</div>
         </a>
       </div>
       <div class="instructor">
         <a href="https://www.linkedin.com/in/amir-navot-7939101/">
-            <div class="instructorphoto"><img src="figures/placeholder.png"></div>
+            <div class="instructorphoto"><img src="figures/Amir-Navot.jpg"></div>
             <div>Amir Navot</div>
         </a>
       </div>
