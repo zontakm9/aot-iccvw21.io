@@ -14,9 +14,9 @@
   <a class="active" href="#home">Home</a>
   <a href="#overview">Overview</a>
   <a href="#speakers">Speakers</a>
-  <a href="#callforpapers">Call for Papers</a>
+  <!-- <a href="#callforpapers">Workshop Topics</a> -->
   <a href="#challenge">Challenge</a>
-  <a href="#dates">Important Dates</a>
+  <!-- <a href="#dates">Important Dates</a> -->
   <a href="#schedule">Workshop Schedule</a>
   <a href="#organizers">Organizers</a>
 </div> 
@@ -51,37 +51,35 @@
 
 <div class="container" id="speakers">
   <h2>Speakers</h2>
-    <div>
-      <div class="instructor">
-        <a href="https://www.linkedin.com/in/amir-navot-7939101/" >
-      <div class="instructorphoto"><img src="figures/Amir-Navot.jpg"></div>
-      <div>Dr. Amir Navot<br>Amazon Prime Air</div>
-      </a>
-     </div>
     <!-- <p>&nbsp;</p>
     </br> -->
-    
+    <div class="instructor">
+      <a href="https://people.epfl.ch/pascal.fua">
+          <div class="instructorphoto"><img src="figures/pascal_fua.jpeg"></div>
+          <div>Prof. Pascal Fua  </a> <br>EPFL <br> <a href="figures/AOT-workshop-abstract-Pascal-Fua.pdf"> Talk Abstract</a> </div>
+     
+    </div>
+
       <div class="instructor">
           <a href="https://dvl.in.tum.de/team/lealtaixe/" >
         <div class="instructorphoto"><img src="figures/laura_lt.jpeg"></div>
-        <div>Prof. Laura Leal-Taixé<br>TU Munich</div>
-        </a>
-      </div>
-
-      <div class="instructor">
-        <a href="https://people.epfl.ch/pascal.fua">
-            <div class="instructorphoto"><img src="figures/pascal_fua.jpeg"></div>
-            <div>Prof. Pascal Fua<br>EPFL</div>
-        </a>
+        <div>Prof. Laura Leal-Taixé </a> <br>TU Munich <br> <a href="figures/AOT-workshop-Laura-Leal-Taixe.pdf"> Talk Abstract</a> </div>
+        
       </div>
 
       <div class="instructor">
         <a href="http://www.cvlibs.net/index.php">
             <div class="instructorphoto"><img src="figures/andreas_geiger.jpg"></div>
-            <div>Prof. Andreas Geiger<br>Tubingen Institute</div>
-        </a>
+            <div>Prof. Andreas Geiger </a><br>Tubingen Institute <br> <a href="figures/AOT-workshop-abstract-Andreas-Geiger.pdf"> Talk Abstract</a> </div>
+      
       </div>
-
+        <div class="instructor">
+          <a href="https://www.linkedin.com/in/amir-navot-7939101/" >
+        <div class="instructorphoto"><img src="figures/Amir-Navot.jpg"></div>
+        <div>Dr. Amir Navot</a> <br>Amazon Prime Air<br><a href="figures/AOT-workshop-abstract-Amir-Navot.pdf"> Talk Abstract</a> </div>
+       
+       </div>
+  
       </br>
       <p>&nbsp;</p>
 
@@ -91,8 +89,31 @@
 </div>
 
 </br>
-<div class="container" id="callforpapers">
-  <h2>Call for Papers</h2>
+<div class="container" id="challenge">
+  <h2>Challenge</h2>
+    <div class="schedule">
+        <p>Please visit <a href="https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/"> this website </a> for more details about Airborne Object Tracking challenge. </p>
+        <p><b>The challenge is over - we THANK all the participants for the great results!!! </b></p> 
+        <div class="photo"><img src="figures/Challenge_Winners.png"></div>
+        <!-- <p> IMPORTANT NOTICE FOR CHALLENGE PARTICIPANTS: </p>
+        <p>To qualify for a prize, challenge participants are <strong>required</strong> to submit an Extended Abstract (2-4 pages) with a description of their solution and the training script. 
+         The following structure can be used: </p>
+          <ul>
+          <li>Abstract / Introduction (up to 2000 words) - please briefly describe your solution (providing relevant references to prior work). </li>
+          <li>Methods - describe your solution in details and provide explanation on different variants you tried. 
+            <strong>The details provided in this section should allow to reproduce the submission result from scratch, including training the models</strong> 
+            (please include references to any additional datasets/ external repositories used and training hyper parameter details). 
+           </li>
+          <li>Results - elaborate on the experiments that support the effectiveness of the suggested solution and possible ablation studies.</li>
+         </ul> 
+        <p> For more details about Extended Abstract please refer to this SUGGESTED TEMPLATE <a href="figures/aot-challenge-extended-abstract-template.docx"> docx</a> / <a href="figures/aot-challenge-extended-abstract-template.pdf"> pdf</a> .</p>
+        <p> NOTICE CHANGE IN SUBMISSION LOCATION: Please push your extended abstract along with your training script to your <strong>AIcrowd GitLab repository</strong></a> -->
+    </div>
+</div>
+
+</br>
+<!-- <div class="container" id="callforpapers">
+  <h2>Workshop Topics</h2>
     <div class="schedule">
     <p><a href="https://cmt3.research.microsoft.com/AOTW2021"> SUBMISSION WEBSITE</a> </strong> is OPEN for <strong> Extended Abstract submissions </strong> </p>
     <p>Topics of the workshop include various aspects of computer vision and machine learning which might be useful for safe autonomous flight. The topics include, but not limited to 
@@ -133,8 +154,8 @@
 
         </ul>
       </li>
-    </ul>
-   <p>Papers are encouraged to illustrate their algorithm performance on the <a href="https://registry.opendata.aws/airborne-object-tracking/"> Airborne Objects Tracking (AOT) dataset</a></p>
+    </ul> -->
+   <!-- <p>Papers are encouraged to illustrate their algorithm performance on the <a href="https://registry.opendata.aws/airborne-object-tracking/"> Airborne Objects Tracking (AOT) dataset</a></p>
   <strike><p>The workshop paper format (8-page limit) follows that of the main conference and will be published in the conference proceedings. Please submit your paper via <a href="https://cmt3.research.microsoft.com/AOTW2021"> https://cmt3.research.microsoft.com/AOTW2021 </a> </strong> </p></strike>
    
    <p>We also introduce a new track of <b>extended abstract</b> submission!</p>  
@@ -148,34 +169,13 @@
 
     <p>The review will be a single-blind. Note that there will be NO published proceedings for extended abstracts. Authors of accepted abstracts might be invited to present their works during the workshop. 
     Leading participants of the AOT challenge who want to be eligible for the prize need to submit an extended abstract about the technique they used for the challenge (see challenge rules for details)
-    </p> 
-  </div>
+    </p>  -->
+  <!-- </div>
 </div>
-</br>
+</br> -->
 
-<div class="container" id="challenge">
-  <h2>Challenge</h2>
-    <div class="schedule">
-        <p>Please visit <a href="https://www.aicrowd.com/challenges/airborne-object-tracking-challenge/"> this website </a> for more details about Airborne Object Tracking challenge. </p>
-        <p><b>The challenge is over - we THANK all the participants for the great results!!! </b></p> 
-        <p> IMPORTANT NOTICE FOR CHALLENGE PARTICIPANTS: </p>
-        <p>To qualify for a prize, challenge participants are <strong>required</strong> to submit an Extended Abstract (2-4 pages) with a description of their solution and the training script. 
-         The following structure can be used: </p>
-          <ul>
-          <li>Abstract / Introduction (up to 2000 words) - please briefly describe your solution (providing relevant references to prior work). </li>
-          <li>Methods - describe your solution in details and provide explanation on different variants you tried. 
-            <strong>The details provided in this section should allow to reproduce the submission result from scratch, including training the models</strong> 
-            (please include references to any additional datasets/ external repositories used and training hyper parameter details). 
-           </li>
-          <li>Results - elaborate on the experiments that support the effectiveness of the suggested solution and possible ablation studies.</li>
-         </ul> 
-        <p> For more details about Extended Abstract please refer to this SUGGESTED TEMPLATE <a href="figures/aot-challenge-extended-abstract-template.docx"> docx</a> / <a href="figures/aot-challenge-extended-abstract-template.pdf"> pdf</a> .</p>
-        <p> NOTICE CHANGE IN SUBMISSION LOCATION: Please push your extended abstract along with your training script to your <strong>AIcrowd GitLab repository</strong></a>
-    </div>
-</div>
 
-</br>
-
+<!-- 
 <div class="container"  id="dates">
   <h2>Important Dates</h2>
     <div class="schedule">
@@ -189,25 +189,32 @@
        
         <!-- <p>For offline Q&A, please post questions to <a href="https://docs.google.com/document/d/1Ngzq5fY7cdwJaZ-VkuMFu3J0H4vh45KNIlLpAw4NGRg/edit?usp=sharing">Google Doc</a></p> -->
        
-      </div>
-</div>
-
-</br>
-
+      <!-- </div>
+</div> -->
+<!-- 
+</br> --> -->
 <div class="container" id="schedule">
   <h2> Workshop Schedule (Montreal time - EST)</h2>
     <div class="schedule">
-        <p> Times might be adjusted later</p>  
-        <p><span class="announce_date">07:30 - 07:40 </span>: <strong> Workshop schedule  </strong> by Yuri Federigi </p>
-        <p><span class="announce_date">07:40 - 07:55 </span>: <strong> Running the challenge </strong> by AIcrowd</p>
+        <p> Start time (AM)</p>  
+        <p><span class="announce_date">07:30 </span>: <strong> Workshop schedule  </strong> by Yuri Federigi </p>
+        <p><span class="announce_date">07:40 </span>: <strong> Introduction to the Challenge Platform </strong> by AIcrowd</p>
         <!-- <a href="slide/talk1_activity_understanding_slide.pdf">[slides]</a> <a href="https://youtu.be/Jwt0Wtlv_uo">[talk]</a>  -->
-        <p><span class="announce_date">07:55 - 09:55 </span>: <strong> Invited Talks </strong> by Pascal Fua, Laura Leal-Taixé and Andreas Geiger</p>
-        <p><span class="announce_date">09:55 - 10:00 </span>: Buffer</p>
-        <p><span class="announce_date">10:00 - 10:30 </span>: <strong> Introduction to Sense and Avoid Systems in Autonomous Drones </strong> by Amir Navot </p>
-        <p><span class="announce_date">10:30 - 10:40 </span>: <strong> Dataset and evaluation </strong> by Maria Zontak</p>
-        <p><span class="announce_date">10:40 - 10:55 </span>: <strong> SIAM-MOT baseline </strong> by Bing Shuai</p>
-        <p><span class="announce_date">10:55 - 11:00 </span>: Buffer</p>
-        <p><span class="announce_date">11:00 - 12:00 </span>: <strong> Challenge winners / paper / abstract presentations </strong> </p>
+        <p><span class="announce_date">07:55 </span>: Buffer</p>
+        <p><span class="announce_date">08:00 </span>: <strong> Video-Based Aircraft Detection for Collision Avoidance Purposes </strong> by Pascal Fua</p>
+        <p><span class="announce_date">08:35 </span>: Buffer</p>
+        <p><span class="announce_date">08:40 </span>: <strong> A New Tracking-by-Attention Paradigm </strong> by Laura Leal-Taixé</p>
+        <p><span class="announce_date">09:15 </span>: Buffer</p>
+        <p><span class="announce_date">09:20 </span>: <strong> Segmenting and Tracking Every Pixel </strong> by Andreas Geiger </p>
+        <p><span class="announce_date">09:55 </span>: Buffer</p>
+        <p><span class="announce_date">10:00 </span>: <strong> Introduction to Sense and Avoid Systems in Autonomous Drones </strong> by Amir Navot</p>
+        <p><span class="announce_date">10:35 </span>: Buffer</p>
+        <p><span class="announce_date">10:40 </span>: <strong> SIAM-MOT Baseline of the AOT Challenge  </strong> by Bing Shuai</p>
+        <p><span class="announce_date">10:55 </span>: Buffer</p>
+        <p><span class="announce_date">11:00 </span>: <strong> Winning Solution of the AOT Challenge </strong> by Dmytro Poplavskiy </p>
+        <p><span class="announce_date">11:20 </span>: <strong> Runner-up Solution of the AOT Challenge </strong> by Yulu Gao </p>
+        <p><span class="announce_date">11:40 </span>: <strong> Generating Synthetic Images and Labels for Airborne Objects </strong> by Franco Callari </p>
+        <p><span class="announce_date">11:50 </span>: <strong> AI Assisted Annotation for Airborne Objects </strong> by Chengxi Ye </p>
         <!-- <p>For offline Q&A, please post questions to <a href="https://docs.google.com/document/d/1Ngzq5fY7cdwJaZ-VkuMFu3J0H4vh45KNIlLpAw4NGRg/edit?usp=sharing">Google Doc</a></p> -->
       </div>
 </div>
@@ -319,37 +326,47 @@
       </div>
         <br>
       <p>&nbsp;</p>
-  
-  <h3>Advisors</h3> 
-      <div class="instructor">
+    </div>
+  </div>
+</br>
+
+  <div class="container" id="advisors">
+    <h2>Advisors</h2> 
+    <div>
+      <div class="instructorsmall">
         <a href="https://www.linkedin.com/in/david-ferstl-b7890657/">
             <div class="instructorphoto"><img src="figures/David_Ferstl.jpg"></div>
             <div>David Ferstl</div>
         </a>
       </div>
 
-      <div class="instructor">
+      <div class="instructorsmall">
         <a href="https://bryanyzhu.github.io/">
             <div class="instructorphoto"><img src="figures/Yi_Zhu.jpeg"></div>
             <div>Yi Zhu</div>
         </a>
       </div>
 
-      <div class="instructor">
+      <div class="instructorsmall">
         <a href="https://www.linkedin.com/in/andrew-berneshawi-45845140/">
             <div class="instructorphoto"><img src="figures/Andrew.jpeg"></div>
             <div>Andrew Berneshawi</div>
         </a>
       </div>
 
-      <div class="instructor">
+      <div class="instructorsmall">
         <a href="https://www.linkedin.com/in/tristan-mckinney-9286a83b/">
             <div class="instructorphoto"><img src="figures/tristan.jpeg"></div>
             <div>Tristan McKinney</div>
         </a>
       </div>
 
-
+      <div class="instructorsmall">
+        <a href="https://www.linkedin.com/in/lukas-zebedin-221826bb/">
+            <div class="instructorphoto"><img src="figures/Lukas_Z.png"></div>
+            <div>Lukas Zebedin</div>
+        </a>
+      </div>
 
     </div>
     <p></p>
